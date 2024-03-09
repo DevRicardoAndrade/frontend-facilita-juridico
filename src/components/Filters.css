@@ -1,0 +1,34 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 2rem 0 2rem 0;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  & button {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  & input {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+    background-color: #ffff;
+    border-radius: 5px;
+  }
+}

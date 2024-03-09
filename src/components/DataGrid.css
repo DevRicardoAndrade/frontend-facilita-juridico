@@ -1,0 +1,32 @@
+.table-container {
+  width: 80%;
+  border: 1px solid #202020;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 2rem;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid grey;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+tr {
+  height: 50px;
+}
