@@ -14,6 +14,12 @@ export default function Filters() {
       state.delete("telephone");
     });
   }
+  function handleClickNew() {
+    setSearchParams((state) => {
+      state.set("new", true);
+      return state;
+    });
+  }
   function handleSubmit(e) {
     e.preventDefault();
     removeSearchParams();
@@ -93,6 +99,9 @@ export default function Filters() {
           </g>
         </svg>
         Filtrar Resultados
+      </button>
+      <button className="btn-new" type="button" onClick={handleClickNew}>
+        Cadastrar
       </button>
     </form>
   );

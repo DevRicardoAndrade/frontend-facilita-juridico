@@ -56,22 +56,11 @@ export default function ClientPage() {
       return state;
     });
   }
-  function handleClickNew() {
-    setSearchParams((state) => {
-      state.set("new", true);
-      return state;
-    });
-  }
   return (
     <div className="container">
       <RoutesModal />
       <NewClientModal />
-      <h1>Página de Clientes</h1>
-      <header className="header">
-        <button className="btn-new" type="button" onClick={handleClickNew}>
-          Cadastrar
-        </button>
-      </header>
+      <h1>Clientes</h1>
       <Filters />
       <DataGrid datatable={datatable} column={columns} />
       <footer className="footer">

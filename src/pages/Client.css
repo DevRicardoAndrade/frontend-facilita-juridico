@@ -1,28 +1,3 @@
-.header {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 2rem;
-}
-.btn-new {
-  border: none;
-  width: 6.5rem;
-  height: 2.75rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border-radius: 0.2rem;
-  font-size: 15px;
-  color: white;
-  background-color: #101010;
-  cursor: pointer;
-  font-weight: bold;
-}
-.btn-new:hover {
-  background-color: #202020;
-}
-
 .btn-rotas {
   align-self: flex-end;
   border: none;

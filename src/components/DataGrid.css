@@ -4,8 +4,8 @@
   border-radius: 0.5rem;
   overflow: hidden;
   padding: 2rem;
-  max-height: 350px;
   overflow-y: auto;
+  max-height: 450px;
 }
 
 table {
